@@ -1,18 +1,18 @@
-**Tomcat with mysql and tomcat-manager in the docker
+***Tomcat with mysql and tomcat-manager in the docker***
 
-*Credentials to mysql
+**Credentials to mysql**
 
-mysql root admin: 1234
-mysql database: tomcat_db
-mysql user: tomcat_user
-mysql user password: 1234
+mysql root admin: _1234_
+mysql database: _tomcat_db_
+mysql user: _tomcat_user_
+mysql user _password: 1234_
 
 
-*Tomcat manager
-user: tomcatadmin
-password: tomcatadmin1234
+**Tomcat manager**
+user: _tomcatadmin_
+password: _tomcatadmin1234_
 
-*Post-forwarding on local machine:
-mysql: 3326->3306
-tomcat: 9080->8080
+**Post-forwarding on local machine:**
+mysql: _3326->3306_
+tomcat: _9080->8080_
 
