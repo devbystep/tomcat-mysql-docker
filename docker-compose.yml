@@ -2,10 +2,10 @@ version: '2'
 
 services:
    db:
-     image: mysql:8
+     image: mysql:latest
      command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
      volumes:
-       - db_data_8:/var/lib/mysql
+       - db_data_mysqltomcat:/var/lib/mysql
      restart: always
      ports:
        - "3326:3306"
@@ -28,4 +28,4 @@ services:
      restart: always
 
 volumes:
-    db_data_8:
+    db_data_mysqltomcat:
